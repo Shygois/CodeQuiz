@@ -5,42 +5,34 @@ var deleteEl = function(El) {
     El.remove();
   };
 
-var createTaskEl = function(taskDataObj) {
-  //create list item
-  var listItemEl = document.createElement("li");
-  listItemEl.className = "task-item";
-
-  // add task id as a custom attribute
-  listItemEl.setAttribute("data-task-id", taskIdCounter);
-
-  // create div to hold task info and add to list item
-  var taskInfoEl = document.createElement("div");
-  taskInfoEl.className = "task-info";
-  taskInfoEl.innerHTML = "<h3 class='task-name'>" + taskDataObj.name + "</h3><span class='task-type'>" + taskDataObj.type + "</span>";
-  listItemEl.appendChild(taskInfoEl);
-
-  var taskActionsEl = createTaskActions(taskIdCounter);
-  listItemEl.appendChild(taskActionsEl);
-
-  tasksToDoEl.appendChild(listItemEl);
-
-  // add entire list item to list
-  tasksToDoEl.appendChild(listItemEl);
-
-  // increase task counter for next unique id
-  taskIdCounter++;
-};
-
 var addQandA = function() {
     // add h3 for question
-    var questionsAndAnswersEl = document.createElement("div");
-    questionsAndAnswersEl.className = "questions-and-answers";
-    questionsAndAnswersEl.innerHTML = "<h3 class='question'>Commonly used data types DO NOT include:</h3>"
-    //.appendChild(questionAndAnswersEl);
+    var questionBoxEl = document.querySelector("#question-box");
+    var questionEl = document.createElement("div");
+    questionEl.id = "question";
+    questionEl.className = "question";
+    questionEl.innerHTML = "<h3 class='question'>Commonly used data types DO NOT include:</h3>"
+    questionBoxEl.appendChild(questionEl);
     // add 4 buttons with different answers to questions
   };
 
   var changeTime = function() {
+    var timerEl = document.querySelector("#timer");
+    var timeLeft = 75;
+    var timeInterval = setInterval(function () {
+      if (timeLeft > 0) {
+        // Set the `textContent` of `timerEl` to show the remaining seconds
+        timerEl.textContent = timeLeft;
+        // Decrement `timeLeft` by 1
+        timeLeft--;
+      }  else {
+        timerEl.textContent = '';
+      // Use `clearInterval()` to stop the timer
+      clearInterval(timeInterval);
+      // Call the `displayMessage()` function
+      alert("Times up!");
+      }
+    }, 1000);
     
   };
 
