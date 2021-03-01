@@ -69,8 +69,8 @@ var addQandA = function() {
       p.innerHTML = "That's Incorrect!";
       timeLeft -= 10;
     }
-    questionBoxEl.appendChild(p); 
-    quizQuestion++; 
+    questionBoxEl.appendChild(p);
+    quizQuestion++;
     addQandA ();
   }
 
@@ -90,6 +90,19 @@ var addQandA = function() {
       alert("Times up!");
       }
     }, 1000);
+
+    var endGame;
+
+    function endGame() {
+      clearInterval(timer);
+      var quizContent = `
+      <h2>Game over!</h2>
+      <h3>You got a ` + score +  ` /100!</h3>
+      <h3>That means you got ` + score / 20 +  ` questions correct!</h3>
+      <input type="text" id="name" placeholder="First name"> 
+      <button onclick="setScore()">Set score!</button>`;
+      document.getElementById("quizBody").innerHTML = quizContent;
+  }
     
   };
 
