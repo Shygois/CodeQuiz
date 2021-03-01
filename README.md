@@ -26,10 +26,11 @@ Description: I got the basic functions of the quiz running, click start button, 
 
 Incomplete: Still need to have each question display individually, need to make my highscores active, need to store high scores, enter in initials for high score and restart the game once time is up. Going to resubmit this but was really struggling with this challenge.
 
-[screenshot]!https://user-images.githubusercontent.com/77821135/109457704-3c9e3a00-7a10-11eb-9851-86469d573c90.png
+![screenshot(https://user-images.githubusercontent.com/77821135/109457704-3c9e3a00-7a10-11eb-9851-86469d573c90.png)
 
-[screenshot]!https://user-images.githubusercontent.com/77821135/109457716-40ca5780-7a10-11eb-888a-75960ee72d4f.png
+![screenshot](https://user-images.githubusercontent.com/77821135/109457716-40ca5780-7a10-11eb-888a-75960ee72d4f.png)
 
 Github link: https://github.com/Shygois/CodeQuiz
 
-Deployed link: 
+Deployed link: https://shygois.github.io/CodeQuiz/
+
