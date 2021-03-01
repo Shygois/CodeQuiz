@@ -1,7 +1,3 @@
-# 04 Web APIs: Code Quiz
-
-As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
-
 ## User Story
 
 ```
@@ -26,17 +22,14 @@ WHEN the game is over
 THEN I can save my initials and score
 ```
 
-The following animation demonstrates the application functionality:
+Description: I got the basic functions of the quiz running, click start button, timer starts and takes you to the first question. Once you answer the first question you are notified if your answer was correct or incorrect. If your answer is correct the next question pops up, if your answer is incorrect the timer is decreased by 10 seconds and the next question pops up.
 
-![code quiz](./Assets/04-web-apis-homework-demo.gif)
+Incomplete: Still need to have each question display individually, need to make my highscores active, need to store high scores, enter in initials for high score and restart the game once time is up. Going to resubmit this but was really struggling with this challenge.
 
-### Review
+[screenshot]!https://user-images.githubusercontent.com/77821135/109457704-3c9e3a00-7a10-11eb-9851-86469d573c90.png
 
-You are required to submit the following for review:
+[screenshot]!https://user-images.githubusercontent.com/77821135/109457716-40ca5780-7a10-11eb-888a-75960ee72d4f.png
 
-* The URL of the functional, deployed application.
+Github link: https://github.com/Shygois/CodeQuiz
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Deployed link: 
