@@ -24,9 +24,9 @@ THEN I can save my initials and score
 
 Description: I got the basic functions of the quiz running, click start button, timer starts and takes you to the first question. Once you answer the first question you are notified if your answer was correct or incorrect. If your answer is correct the next question pops up, if your answer is incorrect the timer is decreased by 10 seconds and the next question pops up.
 
-Incomplete: Still need to have each question display individually, need to make my highscores active, need to store high scores, enter in initials for high score and restart the game once time is up. Going to resubmit this but was really struggling with this challenge.
+Incomplete: Still need to have each question display individually, need to make my highscores active, need to store high scores, enter in initials for high score and restart the game once time is up. Going to resubmit this but was really struggling with this challenge so wanted to submit what I had before the deadline.
 
-![screenshot(https://user-images.githubusercontent.com/77821135/109457704-3c9e3a00-7a10-11eb-9851-86469d573c90.png)
+![screenshot](https://user-images.githubusercontent.com/77821135/109457704-3c9e3a00-7a10-11eb-9851-86469d573c90.png)
 
 ![screenshot](https://user-images.githubusercontent.com/77821135/109457716-40ca5780-7a10-11eb-888a-75960ee72d4f.png)
 
